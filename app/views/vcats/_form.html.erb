@@ -1,0 +1,12 @@
+<%= simple_form_for(@vcat) do |f| %>
+  <%= f.error_notification %>
+
+  <div class="form-inputs">
+    <%= f.input :name %>
+  </div>
+  <br>
+  <div class="form-actions">
+    <%= f.button :submit, 'Save', :class => 'btn-primary' %>
+  </div>
+<% end %>
+<br>

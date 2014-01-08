@@ -1,0 +1,35 @@
+<h2>Listing Committees Members</h2>
+
+<table border="1" cellpadding="2" cellspacing="1">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Village</th>
+      <th>Title</th>
+      <th>Mobile</th>
+      <th>Email</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @committees.each do |committee| %>
+      <tr>
+        <td><%= committee.name %></td>
+        <td><%= committee.village.name %></td>
+        <td><%= committee.com_type.name %></td>
+        <td><%= committee.mobile %></td>
+        <td><%= committee.email %></td>
+        <td><%= link_to 'Show', committee %></td>
+        <td><%= link_to 'Edit', edit_committee_path(committee) %></td>
+        <td><%= link_to 'Destroy', committee, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Committee', new_committee_path %>

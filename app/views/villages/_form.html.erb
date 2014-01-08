@@ -1,0 +1,14 @@
+<%= simple_form_for (@village), :html => { :class => 'form-inline' }  do |f| %>
+    <%= f.error_notification %>
+    <%= f.input :name %>
+    <%= f.input :address %>
+    <%= f.input :address2 %>
+    <%= f.association :suburb %>
+    <%= f.input :phone %>
+    <%= f.input :email %>
+    <%= f.input :residents, label: "Number of Residents?" %>
+    <%= f.association :vcats, as: :check_boxes, label: "Categories" %>
+    <br>
+    <%= f.button :submit, 'Save', :class => 'btn-primary' %>
+  <% end %>
+<br>

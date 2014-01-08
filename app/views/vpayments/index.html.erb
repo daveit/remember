@@ -1,0 +1,39 @@
+<h2>Listing Payments</h2>
+
+<table border="1" cellpadding="2" cellspacing="1">
+  <thead>
+    <tr>
+      <th>Village</th>
+      <th>Means</th>
+      <th>Date</th>
+      <th>Fin To</th>
+      <th>Amount</th>
+      <th>Reference</th>
+      <th>Details</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @vpayments.each do |vpayment| %>
+      <tr>
+        <td><%= vpayment.Village.name %></td>
+        <td><%= vpayment.MeansPayment.name %></td>
+        <td><%= vpayment.pdate %></td>
+        <td><%= vpayment.financial_to %></td>
+        <td><%= vpayment.amount %></td>
+        <td><%= vpayment.reference %></td>
+        <td><%= vpayment.details %></td>
+        <td><%= link_to 'Show', vpayment %></td>
+        <td><%= link_to 'Edit', edit_vpayment_path(vpayment) %></td>
+        <td><%= link_to 'Destroy', vpayment, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Village Payment', new_vpayment_path %>

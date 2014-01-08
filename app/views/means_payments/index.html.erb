@@ -1,0 +1,25 @@
+<h2>Listing Payments Types</h2>
+
+<table border="1" cellpadding="2" cellspacing="1">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @means_payments.each do |means_payment| %>
+      <tr>
+        <td><%= means_payment.name %></td>
+        <td><%= link_to 'Edit', edit_means_payment_path(means_payment) %></td>
+        <td><%= link_to 'Destroy', means_payment, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Means payment', new_means_payment_path %>

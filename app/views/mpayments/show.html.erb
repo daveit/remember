@@ -1,0 +1,41 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Member:</strong>
+  <%= @mpayment.Member.name %>
+</p>
+
+<p>
+  <strong>Date:</strong>
+  <%= @mpayment.pdate %>
+</p>
+
+<p>
+  <strong>Financial To:</strong>
+  <%= @mpayment.financial_to %>
+</p>
+
+<p>
+  <strong>Payment Method:</strong>
+  <%= @mpayment.MeansPayment.name %>
+</p>
+
+<p>
+  <strong>Amount:</strong>
+  <%= @mpayment.amount %>
+</p>
+
+<p>
+  <strong>Reference:</strong>
+  <%= @mpayment.reference %>
+</p>
+
+<p>
+  <strong>Details:</strong>
+  <%= @mpayment.details %>
+</p>
+
+
+
+<%= link_to 'Edit', edit_mpayment_path(@mpayment) %> |
+<%= link_to 'Back', mpayments_path %>

@@ -1,0 +1,2 @@
+module MemberVillagesHelper
+end

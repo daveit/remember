@@ -1,0 +1,2 @@
+module MeansPaymentsHelper
+end

@@ -1,0 +1,50 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @committee.name %>
+</p>
+
+<p>
+  <strong>Village:</strong>
+  <%= @committee.village.name %>
+</p>
+
+<p>
+  <strong>Committee Type:</strong>
+  <%= @committee.com_type.name %>
+</p>
+
+<p>
+  <strong>Work Phone:</strong>
+  <%= @committee.wphone %>
+</p>
+
+<p>
+  <strong>Home Phone:</strong>
+  <%= @committee.hphone %>
+</p>
+
+<p>
+  <strong>Fax:</strong>
+  <%= @committee.fax %>
+</p>
+
+<p>
+  <strong>Mobile:</strong>
+  <%= @committee.mobile %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @committee.email %>
+</p>
+
+<p>
+  <strong>Notes:</strong>
+  <%= @committee.notes %>
+</p>
+
+
+<%= link_to 'Edit', edit_committee_path(@committee) %> |
+<%= link_to 'Back', committees_path %>

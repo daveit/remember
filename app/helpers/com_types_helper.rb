@@ -1,0 +1,2 @@
+module ComTypesHelper
+end

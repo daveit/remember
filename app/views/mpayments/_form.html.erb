@@ -1,0 +1,19 @@
+<%= simple_form_for(@mpayment) do |f| %>
+  <%= f.error_notification %>
+
+  <div class="form-inputs">
+    <%= f.association :Member, label: "Select Member" %>
+    <%= f.association :MeansPayment, label: "Payment Method" %>
+    <%= f.input :pdate, label: "Entry Date" %>
+    <%= f.input :financial_to, label: "Financial-To Date" %>
+    <%= f.input :amount, label: "Amount" %>
+    <%= f.input :reference, label: "Reference" %>
+    <%= f.input :details, label: "Extra Details" %>
+  </div>
+
+  <div class="form-actions">
+    <br>
+      <%= f.button :submit, 'Save', :class => 'btn-primary' %>
+  </div>
+<% end %>
+<br>

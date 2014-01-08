@@ -1,0 +1,27 @@
+<h2>Listing Village Categories</h2>
+
+<table border="1" cellpadding="2" cellspacing="1">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @vcats.each do |vcat| %>
+      <tr>
+        <td><%= vcat.name %></td>
+        <td><%= link_to 'Show', vcat %></td>
+        <td><%= link_to 'Edit', edit_vcat_path(vcat) %></td>
+        <td><%= link_to 'Destroy', vcat, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Village Category', new_vcat_path %>

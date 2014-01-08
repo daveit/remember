@@ -1,0 +1,44 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @village.name %>
+</p>
+
+<p>
+  <strong>Address:</strong>
+  <%= @village.address %>
+</p>
+
+<p>
+  <strong>Address2:</strong>
+  <%= @village.address2 %>
+</p>
+
+<p>
+  <strong>Suburb:</strong>
+  <%= @village.suburb.name %>
+</p>
+
+<p>
+  <strong>Phone:</strong>
+  <%= @village.phone %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @village.email %>
+</p>
+
+<p>
+  <strong>Financial to:</strong>
+  <%= @village.financial_to %>
+</p>
+
+<p>
+  <strong>Residents:</strong>
+  <%= @village.residents %>
+</p>
+
+<%= link_to 'Edit', edit_village_path(@village) %> |
+<%= link_to 'Back', villages_path %>

@@ -1,0 +1,25 @@
+<h2>Listing member villages</h2>
+
+<table border="1" cellpadding="2" cellspacing="1">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @member_villages.each do |member_village| %>
+      <tr>
+        <td><%= member_village.name %></td>
+        <td><%= link_to 'Edit', edit_member_village_path(member_village) %></td>
+        <td><%= link_to 'Destroy', member_village, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Member village', new_member_village_path %>

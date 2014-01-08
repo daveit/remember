@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title><%= content_for?(:title) ? yield(:title) : "Remember" %></title>
+    <meta name="description" content="<%= content_for?(:description) ? yield(:description) : "Remember" %>">
+    <%= stylesheet_link_tag "application", media: "all", "data-turbolinks-track" => true %>
+    <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    <%= csrf_meta_tags %>
+  </head>
+  <body>
+    <div id="wrap">
+    <header>
+      <%= render 'layouts/navigation' %>
+    </header>
+    <main role="main">
+       <%= render 'layouts/messages' %>
+       <%= yield %>
+    </main>
+    </div>
+
+    <div id="footer">
+      <div class="container">
+        <p class="text-muted">WARVRA, Membership Application | Maintained by DJ-Software</p>
+      </div>
+    </div>
+
+  </body>
+</html>

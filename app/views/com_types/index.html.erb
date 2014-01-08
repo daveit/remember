@@ -1,0 +1,27 @@
+<h2>Listing Committee Types</h2>
+
+<table border="1" cellpadding="2" cellspacing="1">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @com_types.each do |com_type| %>
+      <tr>
+        <td><%= com_type.name %></td>
+        <td><%= link_to 'Show', com_type %></td>
+        <td><%= link_to 'Edit', edit_com_type_path(com_type) %></td>
+        <td><%= link_to 'Destroy', com_type, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Committee type', new_com_type_path %>

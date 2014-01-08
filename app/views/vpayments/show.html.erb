@@ -1,0 +1,40 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Means:</strong>
+  <%= @vpayment.MeansPayment.name %>
+</p>
+
+<p>
+  <strong>Village:</strong>
+  <%= @vpayment.Village.name %>
+</p>
+
+<p>
+  <strong>Date:</strong>
+  <%= @vpayment.pdate %>
+</p>
+
+<p>
+  <strong>Financial To:</strong>
+  <%= @vpayment.financial_to %>
+</p>
+
+<p>
+  <strong>Amount:</strong>
+  <%= @vpayment.amount %>
+</p>
+
+<p>
+  <strong>Reference:</strong>
+  <%= @vpayment.reference %>
+</p>
+
+<p>
+  <strong>Details:</strong>
+  <%= @vpayment.details %>
+</p>
+
+
+<%= link_to 'Edit', edit_vpayment_path(@vpayment) %> |
+<%= link_to 'Back', vpayments_path %>

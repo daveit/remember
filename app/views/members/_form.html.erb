@@ -1,0 +1,15 @@
+<%= simple_form_for @member do |f| %>
+    <%= f.input :name %>
+    <%= f.input :address %>
+    <%= f.input :address2 %>
+    <%= f.association :suburb %>
+    <%= f.input :phone %>
+    <%= f.input :mobile %>
+    <%= f.input :email %>
+    <%= f.input :financial_to %>
+    <%= f.association :category %>
+    <%= f.association :member_village %>
+    <br>
+    <%= f.button :submit, 'Save', :class => 'btn-primary' %>
+<% end %>
+<br>

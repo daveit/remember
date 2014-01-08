@@ -1,0 +1,1005 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"log",
+				"Login"
+			],
+			[
+				"doc",
+				"docdate"
+			],
+			[
+				"c",
+				"cellspacing	Attr"
+			],
+			[
+				"sub",
+				"suburbs_url"
+			],
+			[
+				"active",
+				"ActiveModel"
+			],
+			[
+				"Cate",
+				"categories"
+			],
+			[
+				"b",
+				"bgcolor	Attr"
+			],
+			[
+				"h4",
+				"h4	Tag"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"alig",
+				"text-align"
+			],
+			[
+				"Account",
+				"account"
+			],
+			[
+				"list",
+				"lists"
+			],
+			[
+				"is",
+				"isClient"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Gemfile",
+			"settings":
+			{
+				"buffer_size": 480,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config/database.yml",
+			"settings":
+			{
+				"buffer_size": 259,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "db/seeds.rb",
+			"settings":
+			{
+				"buffer_size": 871,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Searching 220 files for \"ADMIN_NAME\"\n\nC:\\BitNami\\rubystack-2.0.0-5\\apps\\remember\\config\\application.example.yml:\n   11  GMAIL_USERNAME: Your_Username\n   12  GMAIL_PASSWORD: Your_Password\n   13: ADMIN_NAME: First User\n   14  ADMIN_EMAIL: user@example.com\n   15  ADMIN_PASSWORD: changeme\n\nC:\\BitNami\\rubystack-2.0.0-5\\apps\\remember\\config\\application.yml:\n   11  GMAIL_USERNAME: Your_Username\n   12  GMAIL_PASSWORD: Your_Password\n   13: ADMIN_NAME: First User\n   14  ADMIN_EMAIL: user@example.com\n   15  ADMIN_PASSWORD: changeme\n\nC:\\BitNami\\rubystack-2.0.0-5\\apps\\remember\\db\\seeds.rb:\n   14  end\n   15  puts 'DEFAULT USERS'\n   16: user = User.find_or_create_by_email :name => ENV['ADMIN_NAME'].dup, :email => ENV['ADMIN_EMAIL'].dup, :password => ENV['ADMIN_PASSWORD'].dup, :password_confirmation => ENV['ADMIN_PASSWORD'].dup\n   17  puts 'user: ' << user.name\n   18  user.add_role :admin\n\n3 matches across 3 files\n",
+			"settings":
+			{
+				"buffer_size": 912,
+				"line_ending": "Windows",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "app/controllers/users_controller.rb",
+			"settings":
+			{
+				"buffer_size": 1008,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/layouts/application.html.erb",
+			"settings":
+			{
+				"buffer_size": 691,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/layouts/_navigation.html.erb",
+			"settings":
+			{
+				"buffer_size": 685,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/layouts/_navigation_links.html.erb",
+			"settings":
+			{
+				"buffer_size": 536,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config/routes.rb",
+			"settings":
+			{
+				"buffer_size": 416,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/suburbs/index.html.erb",
+			"settings":
+			{
+				"buffer_size": 592,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/suburbs/_form.html.erb",
+			"settings":
+			{
+				"buffer_size": 147,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/BitNami/rubystack-2.0.0-5/apps/compplay/app/views/devise/registrations/edit.html.erb",
+			"settings":
+			{
+				"buffer_size": 917,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/suburbs/new.html.erb",
+			"settings":
+			{
+				"buffer_size": 79,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"package co",
+				"Preferences: Package Control Settings – User"
+			],
+			[
+				"package",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 188.0,
+		"history":
+		[
+			"import urllib2,os; pf='Package Control.sublime-package'; ipp=sublime.installed_packages_path(); os.makedirs(ipp) if not os.path.exists(ipp) else None; urllib2.install_opener(urllib2.build_opener(urllib2.ProxyHandler())); open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read()); print 'Please restart Sublime Text to finish installation'"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/BitNami/rubystack-2.0.0-5/apps/remember/Gemfile",
+		"/C/BitNami/rubystack-2.0.0-5/apps/remember/db/seeds.rb",
+		"/C/BitNami/rubystack-2.0.0-5/apps/remember/app/views/layouts/application.html.erb",
+		"/C/BitNami/rubystack-2.0.0-5/apps/remember/config/application.rb",
+		"/C/BitNami/rubystack-2.0.0-5/apps/remember/app/models/user.rb",
+		"/C/BitNami/rubystack-2.0.0-5/apps/remember/app/helpers/application_helper.rb",
+		"/C/BitNami/rubystack-2.0.0-5/apps/remember/app/controllers/pages_controller.rb",
+		"/C/BitNami/rubystack-2.0.0-5/apps/remember/app/controllers/application_controller.rb",
+		"/C/BitNami/rubystack-2.0.0-5/apps/remember/app/assets/javascripts/villages.js.coffee",
+		"/C/BitNami/rubystack-2.0.0-5/apps/remember/app/assets/javascripts/members.js.coffee",
+		"/C/BitNami/rubystack-2.0.0-5/apps/remember/app/assets/javascripts/application.js",
+		"/C/BitNami/rubystack-2.0.0-5/apps/remember/config/database.yml",
+		"/C/BitNami/rubystack-2.0.0-5/apps/remember/app/assets/stylesheets/application.css.scss",
+		"/C/BitNami/rubystack-2.0.0-5/apps/remember/config/environment.rb",
+		"/C/BitNami/rubystack-2.0.0-5/apps/remember/config/boot.rb",
+		"/C/BitNami/rubystack-2.0.0-5/apps/remember/config/initializers/session_store.rb",
+		"/C/BitNami/rubystack-2.0.0-5/apps/remember/config/initializers/simple_form.rb",
+		"/C/BitNami/rubystack-2.0.0-5/apps/remember/config/initializers/backtrace_silencers.rb",
+		"/C/BitNami/rubystack-2.0.0-5/apps/remember/config/routes.rb",
+		"/C/BitNami/rubystack-2.0.0-5/apps/remember/config/initializers/secret_token.rb",
+		"/C/BitNami/rubystack-2.0.0-5/apps/remember/config/environments/development.rb",
+		"/C/BitNami/rubystack-2.0.0-5/apps/remember/config/environments/production.rb",
+		"/C/BitNami/rubystack-2.0.0-5/apps/remember/config/environments/test.rb",
+		"/C/BitNami/rubystack-2.0.0-5/apps/remember/app/views/layouts/_footer.html.erb",
+		"/C/BitNami/rubystack-2.0.0-5/apps/remember/app/views/pages/home.html.erb",
+		"/C/BitNami/rubystack-2.0.0-5/apps/remember/app/views/layouts/_header.html.erb",
+		"/C/BitNami/rubystack-2.0.0-5/apps/todo/app/assets/stylesheets/application.css.scss",
+		"/C/BitNami/rubystack-2.0.0-5/apps/todo/app/assets/stylesheets/pages.css.scss",
+		"/C/BitNami/rubystack-2.0.0-5/apps/remember/app/assets/stylesheets/forms.css.scss",
+		"/C/BitNami/rubystack-2.0.0-5/apps/remember/app/assets/stylesheets/committees.css.scss",
+		"/C/BitNami/rubystack-2.0.0-5/apps/remember/app/assets/stylesheets/custom.css.scss",
+		"/C/BitNami/rubystack-2.0.0-5/apps/todo/app/views/layouts/application.html.haml",
+		"/C/BitNami/rubystack-2.0.0-5/apps/learnrails/app/views/layouts/application.html.erb",
+		"/C/BitNami/rubystack-2.0.0-5/apps/learnrails/app/views/layouts/_navigation_links.html.erb",
+		"/C/BitNami/rubystack-2.0.0-5/apps/docman/app/views/layouts/_navigation.html.erb",
+		"/C/BitNami/rubystack-2.0.0-5/apps/docman/app/views/layouts/_navigation_links.html.erb",
+		"/C/BitNami/rubystack-2.0.0-5/apps/docman/app/views/layouts/application.html.erb",
+		"/C/BitNami/rubystack-2.0.0-5/apps/shipping/app/views/layouts/application.html.erb",
+		"/C/BitNami/rubystack-2.0.0-5/apps/remember/app/views/pages/home.html.haml",
+		"/C/Users/daveport/Documents/incase files/remember_home_html.txt.html",
+		"/C/BitNami/rubystack-2.0.0-5/apps/remember/app/assets/stylesheets/bootstrap_and_overrides.css.scss",
+		"/C/BitNami/rubystack-2.0.0-5/apps/remember/app/assets/javascripts/vpayments.js.coffee",
+		"/C/BitNami/rubystack-2.0.0-5/apps/remember/app/views/layouts/application.html.haml",
+		"/C/BitNami/rubystack-2.0.0-5/apps/remember/Rakefile",
+		"/C/BitNami/rubystack-2.0.0-5/apps/remember/app/assets/stylesheets/vpayments.css.scss",
+		"/C/BitNami/rubystack-2.0.0-5/apps/remember/config.ru",
+		"/C/BitNami/rubystack-2.0.0-5/apps/remember/config/locales/simple_form.en.yml",
+		"/C/BitNami/rubystack-2.0.0-5/apps/remember/config/locales/en.yml",
+		"/C/BitNami/rubystack-2.0.0-5/apps/remember/config/locales/devise.en.yml",
+		"/C/BitNami/rubystack-2.0.0-5/apps/remember/config/initializers/wrap_parameters.rb",
+		"/C/BitNami/rubystack-2.0.0-5/apps/remember/config/initializers/simple_form_bootstrap.rb",
+		"/C/BitNami/rubystack-2.0.0-5/apps/remember/config/initializers/mime_types.rb",
+		"/C/BitNami/rubystack-2.0.0-5/apps/remember/config/initializers/inflections.rb",
+		"/C/BitNami/rubystack-2.0.0-5/apps/remember/config/initializers/high_voltage.rb",
+		"/C/BitNami/rubystack-2.0.0-5/apps/remember/config/initializers/filter_parameter_logging.rb",
+		"/C/BitNami/rubystack-2.0.0-5/apps/remember/config/initializers/devise.rb",
+		"/C/BitNami/rubystack-2.0.0-5/apps/remember/Gemfile.lock",
+		"/C/BitNami/rubystack-2.0.0-5/apps/remember/app/views/vcats/_form.html.erb",
+		"/C/BitNami/rubystack-2.0.0-5/apps/remember/app/views/vpayments/_form.html.erb",
+		"/C/BitNami/rubystack-2.0.0-5/apps/remember/app/assets/javascripts/categories.js.coffee",
+		"/C/BitNami/rubystack-2.0.0-5/apps/remember/app/assets/javascripts/com_types.js.coffee",
+		"/C/BitNami/rubystack-2.0.0-5/apps/remember/app/assets/javascripts/committees.js.coffee",
+		"/C/BitNami/rubystack-2.0.0-5/apps/remember/app/assets/javascripts/means_payments.js.coffee",
+		"/C/BitNami/rubystack-2.0.0-5/apps/remember/app/assets/javascripts/member_villages.js.coffee",
+		"/C/BitNami/rubystack-2.0.0-5/apps/remember/app/assets/javascripts/mpayments.js.coffee",
+		"/C/BitNami/rubystack-2.0.0-5/apps/remember/app/assets/javascripts/suburbs.js.coffee",
+		"/C/BitNami/rubystack-2.0.0-5/apps/remember/app/assets/javascripts/vcats.js.coffee",
+		"/C/BitNami/rubystack-2.0.0-5/apps/todo/config/application.rb",
+		"/C/Users/daveport/Documents/incase files/remember_home_html.html",
+		"/C/Users/daveport/Documents/incase files/javascript_for_remember.txt",
+		"/C/BitNami/rubystack-2.0.0-5/apps/remember/app/views/mpayments/_form.html.erb",
+		"/C/BitNami/rubystack-2.0.0-5/apps/remember/app/views/mpayments/new.html.erb",
+		"/C/BitNami/rubystack-2.0.0-5/apps/remember/app/views/mpayments/edit.html.erb",
+		"/C/BitNami/rubystack-2.0.0-5/apps/remember/app/models/village.rb",
+		"/C/BitNami/rubystack-2.0.0-5/apps/remember/app/views/vpayments/new.html.erb",
+		"/C/BitNami/rubystack-2.0.0-5/apps/remember/app/views/vpayments/edit.html.erb",
+		"/C/BitNami/rubystack-2.0.0-5/apps/remember/app/views/committees/_form.html.erb",
+		"/C/BitNami/rubystack-2.0.0-5/apps/remember/app/views/committees/new.html.erb",
+		"/C/BitNami/rubystack-2.0.0-5/apps/remember/app/views/com_types/new.html.erb",
+		"/C/BitNami/rubystack-2.0.0-5/apps/remember/app/views/com_types/edit.html.erb",
+		"/C/BitNami/rubystack-2.0.0-5/apps/remember/app/views/means_payments/_form.html.erb",
+		"/C/BitNami/rubystack-2.0.0-5/apps/remember/app/views/means_payments/edit.html.erb",
+		"/C/BitNami/rubystack-2.0.0-5/apps/remember/app/views/means_payments/new.html.erb",
+		"/C/BitNami/rubystack-2.0.0-5/apps/remember/app/views/member_villages/edit.html.erb",
+		"/C/BitNami/rubystack-2.0.0-5/apps/remember/app/views/member_villages/new.html.erb",
+		"/C/BitNami/rubystack-2.0.0-5/apps/remember/app/views/members/new.html.erb",
+		"/C/BitNami/rubystack-2.0.0-5/apps/remember/app/views/vcats/new.html.erb",
+		"/C/BitNami/rubystack-2.0.0-5/apps/remember/app/views/vcats/edit.html.erb",
+		"/C/BitNami/rubystack-2.0.0-5/apps/remember/app/views/villages/new.html.erb",
+		"/C/BitNami/rubystack-2.0.0-5/apps/remember/app/views/villages/edit.html.erb",
+		"/C/BitNami/rubystack-2.0.0-5/apps/remember/app/controllers/mpayments_controller.rb",
+		"/C/BitNami/rubystack-2.0.0-5/apps/remember/app/assets/stylesheets/mpayments.css.scss",
+		"/C/BitNami/rubystack-2.0.0-5/apps/docman/app/assets/javascripts/documents.js.coffee",
+		"/C/BitNami/rubystack-2.0.0-5/apps/remember/app/assets/stylesheets/application.css",
+		"/C/BitNami/rubystack-2.0.0-5/apps/remember/app/views/members/index.html.erb",
+		"/C/BitNami/rubystack-2.0.0-5/apps/remember/app/views/members/show.html.erb",
+		"/C/BitNami/rubystack-2.0.0-5/apps/remember/app/views/members/edit.html.erb",
+		"/C/BitNami/rubystack-2.0.0-5/apps/remember/app/models/mpayment.rb",
+		"/C/BitNami/rubystack-2.0.0-5/apps/remember/app/models/means_payment.rb",
+		"/C/BitNami/rubystack-2.0.0-5/apps/remember/app/views/members/_form.html.erb",
+		"/C/BitNami/rubystack-2.0.0-5/apps/remember/app/views/villages/_form.html.erb",
+		"/C/BitNami/rubystack-2.0.0-5/apps/remember/app/models/member.rb",
+		"/C/BitNami/rubystack-2.0.0-5/apps/remember/db/migrate/20131222065619_add_financial_to_to_members.rb",
+		"/C/BitNami/rubystack-2.0.0-5/apps/remember/db/migrate/20131222061320_create_mpayments.rb",
+		"/C/BitNami/rubystack-2.0.0-5/apps/remember/db/migrate/20131222073017_add_financial_to_tovpayment.rb",
+		"/C/BitNami/rubystack-2.0.0-5/apps/remember/db/migrate/20131222072842_add_financial_to_tompayment.rb",
+		"/C/BitNami/rubystack-2.0.0-5/apps/remember/db/migrate/20131214081703_create_means_payments.rb",
+		"/C/BitNami/rubystack-2.0.0-5/apps/todo/app/views/tasks/show_form.js.erb",
+		"/C/Users/daveport/Documents/Info_Documents/procs.txt",
+		"/C/Users/daveport/Documents/junior_atoms_tutorial_columns.txt",
+		"/C/djs/vdf170/bell/Programs/bell53.ws",
+		"/F/Downloads/visual-composer-page-builder-for-wordpress-license.txt",
+		"/C/Program Files/Sublime Text 3/changelog.txt",
+		"/C/djs/tri_deb_mar_v2.csv",
+		"/C/djs/tri_deb_mar.csv",
+		"/C/BitNami/rubystack-2.0.0-5/apps/progress/app/views/documents/new.html.erb",
+		"/C/BitNami/rubystack-2.0.0-5/apps/progress/app/views/documents/_form.html.erb",
+		"/C/BitNami/rubystack-2.0.0-5/apps/progress/app/views/products/_form.html.erb",
+		"/C/BitNami/rubystack-2.0.0-5/apps/progress/app/models/document.rb",
+		"/C/BitNami/rubystack-2.0.0-5/apps/progress/app/uploaders/docname_uploader.rb",
+		"/C/BitNami/rubystack-2.0.0-5/apps/progress/app/controllers/documents_controller.rb",
+		"/C/BitNami/rubystack-2.0.0-5/apps/progress/app/admin/document.rb",
+		"/C/BitNami/rubystack-2.0.0-5/apps/dman/Gemfile",
+		"/X/stuff_info.txt",
+		"/C/BitNami/rubystack-2.0.0-5/apps/docman/config/database.yml",
+		"/C/BitNami/rubystack-2.0.0-5/apps/remember_old/db/migrate/20131110072142_create_members.rb",
+		"/C/BitNami/rubystack-2.0.0-5/apps/remember_old/app/views/members/new.html.erb",
+		"/C/BitNami/rubystack-2.0.0-5/apps/remember_old/app/views/members/form_incase.txt"
+	],
+	"find":
+	{
+		"height": 52.0
+	},
+	"find_in_files":
+	{
+		"height": 144.0,
+		"where_history":
+		[
+			"C:\\BitNami\\rubystack-2.0.0-5\\apps\\remember"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"ADMIN_NAME",
+			"boots",
+			"crystal",
+			"true",
+			"get (val",
+			"get",
+			"gre.com",
+			"data-cloudzoom",
+			"writeln",
+			"AQUARIUM GLASS COUNTRY & INTERSTATE",
+			"onc",
+			"for_",
+			"firstname",
+			"<input",
+			"better",
+			"hr",
+			"website",
+			"panache",
+			"crystal",
+			"premiumslider",
+			".jpg",
+			"slider",
+			"content",
+			"for_all",
+			"mod_re",
+			"Hi",
+			"sticky",
+			"post-1",
+			"grid",
+			"post",
+			"case",
+			"select",
+			"body",
+			"sticky",
+			"bottom",
+			"form",
+			"jumba",
+			"crystal",
+			"date",
+			"crystal",
+			"oncon",
+			"FOR_ALL",
+			"procedure enter",
+			"gard",
+			"for_all",
+			"Payroll_Start_Date",
+			"date",
+			"ray@",
+			"max",
+			"smtp",
+			"mail",
+			"engine",
+			"dave",
+			"requireDirectory",
+			"jquery",
+			"gard",
+			"padding",
+			"#wrap",
+			"padding",
+			"broad",
+			"h2",
+			"warpwhite",
+			"learn more",
+			"slidertext",
+			"RM & KL Enviro",
+			"buy now",
+			"cats",
+			",0.00",
+			"zero",
+			"business",
+			"onchange",
+			"ssl",
+			"8.2",
+			"sellmot",
+			"http",
+			"my_new_app",
+			"party",
+			"NULL",
+			"I/TEK & P/SAFE",
+			"MEDICATIONS/ P/SAFE I/TEK",
+			"Biotic Plus",
+			"BULK",
+			"General",
+			"80",
+			"bv-inv",
+			"loop",
+			"mysql9",
+			"constrain",
+			"property",
+			"constrain",
+			"_dd",
+			"ombo",
+			"solo",
+			"sellmot",
+			",,",
+			"08.072",
+			"item_count",
+			"sendmail",
+			"17461",
+			"gardiners",
+			"gre",
+			"ftp",
+			"form",
+			"sort",
+			"full_t",
+			"self",
+			"diary.",
+			"memory",
+			"we can",
+			"property",
+			"combo",
+			"coombo",
+			"bpo",
+			"tracy",
+			"bgnd",
+			"lastp",
+			"id",
+			"h2",
+			"clouds",
+			"excel",
+			"combo",
+			"multi",
+			"date",
+			"the_block",
+			"url",
+			"health",
+			"business",
+			"chilkat"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			",-1.00",
+			"warvra",
+			"",
+			"MEDICPS",
+			"BIOTICP",
+			"",
+			"GENERAL",
+			"",
+			"krystalflowers.com.au",
+			"'"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 10,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Gemfile",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 480,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								71,
+								71
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "config/database.yml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 259,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/YAML/YAML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "db/seeds.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 871,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								680,
+								690
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 912,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										194,
+										204
+									],
+									[
+										435,
+										445
+									],
+									[
+										680,
+										690
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"detect_indentation": false,
+							"line_numbers": false,
+							"output_tag": 1,
+							"result_base_dir": "",
+							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/controllers/users_controller.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1008,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								353,
+								353
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 59.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/views/layouts/application.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 691,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/views/layouts/_navigation.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 685,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "app/views/layouts/_navigation_links.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 536,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								512,
+								512
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "config/routes.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 416,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								294,
+								294
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": -0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "app/views/suburbs/index.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 592,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "app/views/suburbs/_form.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 147,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								72,
+								72
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "/C/BitNami/rubystack-2.0.0-5/apps/compplay/app/views/devise/registrations/edit.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 917,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								675,
+								733
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "app/views/suburbs/new.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 79,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								18,
+								18
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 42.0
+	},
+	"input":
+	{
+		"height": 52.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "remember.sublime-project",
+	"replace":
+	{
+		"height": 80.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"for_",
+				"C:\\Users\\daveport\\Documents\\Info_Documents\\procs.txt"
+			],
+			[
+				"procs",
+				"/C/Users/daveport/Documents/Info_Documents/procs.txt"
+			],
+			[
+				"arch",
+				"/C/djs/vdf170/bell/AppSrc/Archived_Invoices.vw"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 625.0,
+		"selected_items":
+		[
+		],
+		"width": 475.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 455.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

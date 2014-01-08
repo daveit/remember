@@ -1,0 +1,20 @@
+<%= simple_form_for(@committee) do |f| %>
+  <%= f.error_notification %>
+
+  <div class="form-inputs">
+    <%= f.input :name, label: "Committee Member Name" %>
+    <%= f.association :village, label: "Village they belong to" %>
+    <%= f.association :com_type, label: "Their title" %>
+    <%= f.input :wphone, label: "Work Phone" %>
+    <%= f.input :hphone, label: "Home Phone" %>
+    <%= f.input :fax, label: "Fax #" %>
+    <%= f.input :mobile, label: "Mobile #" %>
+    <%= f.input :email, label: "E-Mail address" %>
+    <%= f.input :notes, label: "Additional Notes" %>
+  </div>
+  <br>
+  <div class="form-actions">
+    <%= f.button :submit, 'Save', :class => 'btn-primary' %>
+  </div>
+<% end %>
+<br>
